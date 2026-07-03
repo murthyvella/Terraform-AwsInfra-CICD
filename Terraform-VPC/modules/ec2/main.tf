@@ -37,7 +37,7 @@ resource "aws_instance" "web" {
     echo "            width: 100%;" >> index.html
     echo "            width: 100%;" >> index.html
     echo "            height: auto;" >> index.html
-    echo "            min-height: 90vh;" >> index.html
+    echo "            min-height: 80vh;" >> index.html
     echo "            padding: 50px 20px;" >> index.html
     echo "            padding-top: 100px;" >> index.html
     echo "            display: flex;" >> index.html
@@ -87,7 +87,7 @@ resource "aws_instance" "web" {
     echo "    <div class="wrapper">" >> index.html
     echo "        <div class="instance-card">" >> index.html
     echo "            <div class="instance-card__cnt">" >> index.html
-    echo "                <div class="instance-card__name">Your EC2 Instance is running!</div>" >> index.html
+    echo "                <div class="instance-card__name">My EC2 Instance is running!</div>" >> index.html
     echo "                <div class="instance-card-inf">" >> index.html
     echo "                    <div class="instance-card-inf__item">" >> index.html
     echo "                        <div class="instance-card-inf__txt">Instance Id</div>" >> index.html
