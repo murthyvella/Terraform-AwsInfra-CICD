@@ -9,7 +9,7 @@ terraform {
 // Create a backend see for the terraform TF State file we are going to store this TF State file in our S3 bucket, so for that we need to create an S3 Bucket
   
   backend "s3" {
-    bucket = "my-bucket-aws-s3"
+    bucket = "nani-murthy"
     key    = "dev/terraform.tfstate"
     region = "us-east-1"
   }
